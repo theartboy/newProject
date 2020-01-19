@@ -41,3 +41,44 @@ The theme I use is **monokai**. Click the **install** button to make it availabl
 Back in the left column menu click on Themes hutton. Now you need to set the UI Theme to **Atom Dark** and the Syntax Theme to **Monokai** to match the demonstrations in class.
 
 ## GitHub start
+After logging on to your GitHub account, click the **plus** button on the top right and select **New Repository**.
+
+Now you need to perform the following steps:
+1. give the repository a name
+2. type in a basic description of the project
+3. click the box that says **initialize this repository with a README**
+4. click the **Create repository** button
+
+### Setting up Git-Pages
+Click on the **Settings** tab. Scroll down to **GitHub Pages**.
+Click on **Select Source** and choose **master branch**.
+Scroll back down to **GitHub Pages** and copy the published URL \(right clicking is easiest\).
+Scroll back to the top and click on the **Code** tab.
+On the right side you will see the **edit** button. Click it and in the website field, paste the copied URL and then click the **save** button.
+
+### Copy the repository URL
+Click on the **Clone or download** button. Click on the clipboard icon to copy the repository URL.
+
+## Atom start
+Close all open windows in Atom.
+Under the **Packages** pull-down menu select **platformio-ide-terminal** and click on **toggle**.
+In the terminal window that opens at the bottom of the screen you will navigate to the Desktop with the following commands. Type in the command and hit the **return** key after each line.
+```
+cd ~
+cd Desktop
+```
+Now you will clone the repository to the Desktop of your computer. Again in the terminal window. Type **git clone** and then paste the URL of your repository.
+```
+git clone https://github.com/yourUsername/yourRepo.git
+```
+Next you need to open the project folder using the terminal window. Type cd and the name of your repo,
+```
+cd yourRepoName
+```
+Now you should see the **Project** tab open on the left column. You are ready to start adding files to the project.
+
+### Making a commit
+Click the **git** button in the lower right of the Atom window. Alternatively, you can select the Packages pull-down menu, select **GitHub** and then **toggle git panel**.
+In the top right corner, click the **Stage All** button. Type a message in the **Commit** window and then click the **Commit to master** button.
+In the bottom right collection of buttons, click the **push** button and it will push your changes to the online repository.
+You may be asked to provide your GitHub username and password credentials.
