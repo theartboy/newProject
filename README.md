@@ -42,7 +42,7 @@ Back in the left column menu click on Themes hutton. Now you need to set the UI 
 
 ## GitHub start
 After logging on to your GitHub account, click the **plus** button on the top right and select **New Repository**.
-![new button](/images/1new.png =200x185)
+![new button](/images/1new.png?s=200)
 
 Now you need to perform the following steps:
 1. give the repository a name
