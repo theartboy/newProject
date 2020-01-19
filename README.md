@@ -71,7 +71,7 @@ Now you will clone the repository to the Desktop of your computer. Again in the 
 ```
 git clone https://github.com/yourUsername/yourRepo.git
 ```
-Next you need to open the project folder using the terminal window. Type cd and the name of your repo,
+Next you need to open the project folder using the terminal window. Type cd and the name of your repo.
 ```
 cd yourRepoName
 ```
@@ -79,6 +79,9 @@ Now you should see the **Project** tab open on the left column. You are ready to
 
 ### Making a commit
 Click the **git** button in the lower right of the Atom window. Alternatively, you can select the Packages pull-down menu, select **GitHub** and then **toggle git panel**.
+
 In the top right corner, click the **Stage All** button. Type a message in the **Commit** window and then click the **Commit to master** button.
+
 In the bottom right collection of buttons, click the **push** button and it will push your changes to the online repository.
+
 You may be asked to provide your GitHub username and password credentials.
