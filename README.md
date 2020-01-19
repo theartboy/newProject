@@ -90,7 +90,7 @@ Now you should see the **Project** tab open on the left column. You are ready to
 
 ### Making a commit
 Click the **git** button in the lower right of the Atom window. Alternatively, you can select the Packages pull-down menu, select **GitHub** and then **toggle git panel**.
-![](images/gitButton.png)
+![](images/gitbutton.png)
 
 1. In the top right corner, click the **Stage All** button.
 ![](images/stage.png)
