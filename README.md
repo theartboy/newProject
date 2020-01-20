@@ -57,6 +57,7 @@ Click on the **Settings** tab. Scroll down to **GitHub Pages**.
 ![click settings tab](images/settings.png)
 
 Click on **Select Source** and choose **master branch**.
+
 ![setting master branch as git-page](images/setMasterBranch.png)
 
 Scroll back down to **GitHub Pages** and copy the published URL \(right clicking is easiest\).
